@@ -1,0 +1,145 @@
+.app-shell {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 24px 16px 40px;
+}
+
+.header-panel,
+.summary-panel,
+.actions-panel,
+.criterion-row,
+.formula-panel {
+  border: 1px solid #d8d3cb;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.header-panel h1 {
+  margin: 0;
+  font-size: 2rem;
+  line-height: 1.1;
+  color: #1f2937;
+}
+
+.header-panel p {
+  margin: 10px 0 0;
+  color: #4b5563;
+  line-height: 1.5;
+}
+
+.summary-panel {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.summary-item {
+  padding: 12px;
+  border-radius: 8px;
+  background: #f9fafb;
+}
+
+.summary-item span,
+.summary-item strong {
+  display: block;
+}
+
+.summary-item span {
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+.summary-item strong {
+  margin-top: 6px;
+  font-size: 1.2rem;
+  color: #111827;
+}
+
+.actions-panel {
+  display: flex;
+  gap: 12px;
+}
+
+.actions-panel button {
+  border: 1px solid #cbd5e1;
+  background: #f8fafc;
+  color: #111827;
+  cursor: pointer;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font: inherit;
+}
+
+.criterion-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.criterion-row h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #111827;
+}
+
+.criterion-weight {
+  margin: 6px 0 0;
+  color: #6b7280;
+}
+
+.score-control {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 140px;
+  color: #374151;
+  font-weight: 600;
+}
+
+.score-control select {
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font: inherit;
+  background: #fff;
+}
+
+.criterion-status {
+  margin: 14px 0 0;
+  color: #374151;
+  line-height: 1.5;
+}
+
+.formula-panel p {
+  margin: 0;
+  color: #374151;
+}
+
+@media (max-width: 640px) {
+  .app-shell {
+    padding: 16px 12px 28px;
+  }
+
+  .summary-panel {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .actions-panel,
+  .criterion-main {
+    flex-direction: column;
+  }
+
+  .actions-panel button,
+  .score-control select {
+    width: 100%;
+  }
+}
+
+@media (max-width: 420px) {
+  .summary-panel {
+    grid-template-columns: 1fr;
+  }
+}
