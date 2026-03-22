@@ -213,7 +213,7 @@ function App() {
   return (
     <main className="app-shell">
       <section className="header-panel">
-        <h1>Studentu vērtējuma kalkulators</h1>
+        <h1>PROG2 2. projekta vērtējuma kalkulators</h1>
         <p>
           Izvēlies punktus katrai kategorijai no 0 līdz 3. Rezultāts tiek
           aprēķināts automātiski pēc svara.
