@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/prog2-assignment-2-student-grade-calculator/static/css/main.b83dd204.css",
+    "main.js": "/prog2-assignment-2-student-grade-calculator/static/js/main.cf805139.js",
+    "index.html": "/prog2-assignment-2-student-grade-calculator/index.html",
+    "main.b83dd204.css.map": "/prog2-assignment-2-student-grade-calculator/static/css/main.b83dd204.css.map",
+    "main.cf805139.js.map": "/prog2-assignment-2-student-grade-calculator/static/js/main.cf805139.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b83dd204.css",
+    "static/js/main.cf805139.js"
+  ]
+}
